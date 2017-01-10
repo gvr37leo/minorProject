@@ -3,6 +3,7 @@ var Schema = mongoose.Schema
 var schema = new Schema({
   name: String,
   imageURL:String,
+  tribe:String,
   question:[
       {
           posX:Number,
@@ -13,3 +14,6 @@ var schema = new Schema({
       }
   ]
 })
+
+var Animal = mongoose.model('animal', schema);
+module.exports = Animal

@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clientjade": "^0.1.1",
     "express": "^4.14.0",
-    "mongodb": "^2.2.19"
+    "mongodb": "^2.2.19",
+    "pug": "^2.0.0-beta6"
   }
 }

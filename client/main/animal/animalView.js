@@ -1,8 +1,4 @@
-var AnimalView = require('./animal/animalView')
-
-var MainView = Backbone.View.extend({
-    el:"#main",
-
+var AnimalView = Backbone.View.extend({
     initialize:function(){
         this.render();
     },
@@ -13,4 +9,4 @@ var MainView = Backbone.View.extend({
     },
 });
 
-module.exports = MainView
+module.exports = AnimalView

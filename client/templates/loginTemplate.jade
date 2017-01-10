@@ -1,8 +1,11 @@
 div(style='height:100vh; display: flex; justify-content: center; align-items: center')
     .panel.panel-primary
-        .input-group
-            input.form-control(placeholder='username')
-        .input-group
-            input.form-control(placeholder='username')
-        a.btn.btn-default Login
-        a(href='') Maak een account
+        .panel-body
+            .form-group
+                input.form-control(placeholder='username')
+            .form-group
+                input.form-control(placeholder='username')
+            .form-group(style='display:flex; justify-content:center')
+                a.btn.btn-default(style='width:100%') Login
+            .form-group(style='display:flex; justify-content:center')
+                a(href='') Maak een account

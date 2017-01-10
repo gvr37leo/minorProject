@@ -7,7 +7,9 @@ div(style='height:100vh')
             div(style=' display:flex; justify-content: center; align-items: center; flex-direction:column; flex-grow:1')
                 div name
                 div status | level
-                div progression bar
+                .progress
+                    .progress-bar(role='progressbar', aria-valuenow='60', aria-valuemin='0', aria-valuemax='100', style='width: 60%;')
+                        span.sr-only 60% Complete
             div(style='display:flex; justify-content: center; align-items: center; flex-grow:3')
                 div location
     #gallery(style='height:50vh; display:flex; ')
